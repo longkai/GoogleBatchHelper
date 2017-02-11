@@ -1,0 +1,6 @@
+framework module GoogleBatchHelper {
+  umbrella header "GoogleBatchHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}

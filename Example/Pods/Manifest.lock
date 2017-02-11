@@ -1,0 +1,16 @@
+PODS:
+  - GoogleBatchHelper (0.1.0)
+
+DEPENDENCIES:
+  - GoogleBatchHelper (from `../`)
+
+EXTERNAL SOURCES:
+  GoogleBatchHelper:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GoogleBatchHelper: 1967d38929cbf44789bb57b1af69f1204ec0942c
+
+PODFILE CHECKSUM: b93b9f1e0cbfa4c1c9e29a445ca01ff9d46f3f41
+
+COCOAPODS: 1.1.1

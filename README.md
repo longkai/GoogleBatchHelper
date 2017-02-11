@@ -1,5 +1,7 @@
 # GoogleBatchHelper
 
+A simple Google batch API encode/decode helper class written in Swift 3.
+
 [![CI Status](http://img.shields.io/travis/longkai/GoogleBatchHelper.svg?style=flat)](https://travis-ci.org/longkai/GoogleBatchHelper)
 [![Version](https://img.shields.io/cocoapods/v/GoogleBatchHelper.svg?style=flat)](http://cocoapods.org/pods/GoogleBatchHelper)
 [![License](https://img.shields.io/cocoapods/l/GoogleBatchHelper.svg?style=flat)](http://cocoapods.org/pods/GoogleBatchHelper)

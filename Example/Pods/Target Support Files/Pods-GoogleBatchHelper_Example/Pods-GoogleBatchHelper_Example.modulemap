@@ -1,0 +1,6 @@
+framework module Pods_GoogleBatchHelper_Example {
+  umbrella header "Pods-GoogleBatchHelper_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

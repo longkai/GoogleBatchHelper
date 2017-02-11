@@ -1,0 +1,711 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08C9AC57F58FA061910385F66BB2A0BD /* GoogleBatchHelper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F7D8CACE18D0C1DCF362D20DE8BBA1 /* GoogleBatchHelper-dummy.m */; };
+		0C7D322AC095125BD197C01F73DD25FA /* GoogleBatchHelper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BE7D5F906BB5DCFC210EFDE3A0BB6F3 /* GoogleBatchHelper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26E7DF5118B5CACDBC2D8CEB02AD1B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		3DE2FA710CB4B59A4E0151D34D4B01FC /* Pods-GoogleBatchHelper_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5675A2ACD63C348EBF4CE37FE0A48927 /* Pods-GoogleBatchHelper_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48ED336E31D089D2263F5B66F21B065E /* Pods-GoogleBatchHelper_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ABD51C360A7653C4183B0F0551A52A1 /* Pods-GoogleBatchHelper_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BC0C8D1D2CA1F48230B751228DF97EE /* Pods-GoogleBatchHelper_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C9D6DC990EBECF0A7BCC95D82D470 /* Pods-GoogleBatchHelper_Example-dummy.m */; };
+		79E5E8B0F26924709F966B1C00D0E7C6 /* Pods-GoogleBatchHelper_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FC83005CF77090F105F21D11EF0416 /* Pods-GoogleBatchHelper_Tests-dummy.m */; };
+		7F50A10FB1CD9BABFBAD4A7EB57AE25B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BEEC49D42EA37CC90C27C37B566FAABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CEA563DCE04AACE2CF5E7DA27B66F97D /* BatchRequestEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991B12DB996F9B04BA1A5BF8B21B5CF9 /* BatchRequestEncoder.swift */; };
+		FDBFE18191E4DBD8762ABD1CA419028C /* BatchResponseDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C06B17BFD5BA4F4938965B6B1B15B68 /* BatchResponseDecoder.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6AFAF7A10407123119D6313FE8E50C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2086B878022B6D915C6A182BEAACF829;
+			remoteInfo = GoogleBatchHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00838F1A157047ADC0917AF959C400AF /* Pods_GoogleBatchHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleBatchHelper_Example.framework; path = "Pods-GoogleBatchHelper_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0838677928EA5D2FDCB6E164DDD536FE /* Pods-GoogleBatchHelper_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleBatchHelper_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2BE7D5F906BB5DCFC210EFDE3A0BB6F3 /* GoogleBatchHelper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleBatchHelper-umbrella.h"; sourceTree = "<group>"; };
+		2E15BB95F4ED6F6B91C9C53B5E3C8FBA /* Pods-GoogleBatchHelper_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleBatchHelper_Example-frameworks.sh"; sourceTree = "<group>"; };
+		35ECC68D6DAB6A727B972A830762E0DB /* Pods-GoogleBatchHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleBatchHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36CF461EB8AA6B3ACDE44F9440D43C94 /* Pods-GoogleBatchHelper_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleBatchHelper_Example.modulemap"; sourceTree = "<group>"; };
+		3C06B17BFD5BA4F4938965B6B1B15B68 /* BatchResponseDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BatchResponseDecoder.swift; sourceTree = "<group>"; };
+		469A41566C90885E67BB22D97CC2A7EA /* Pods-GoogleBatchHelper_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleBatchHelper_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		54FCFA162F245577D393FF8A75EB2EF5 /* Pods-GoogleBatchHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleBatchHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5675A2ACD63C348EBF4CE37FE0A48927 /* Pods-GoogleBatchHelper_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleBatchHelper_Example-umbrella.h"; sourceTree = "<group>"; };
+		5B6446C664ED3BB0D277E31E9595C7E2 /* Pods-GoogleBatchHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleBatchHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5B888037D84090FE66986D06085D957E /* Pods-GoogleBatchHelper_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GoogleBatchHelper_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5DEC41D0C49B02E742D6E2D4B6C39EDA /* Pods-GoogleBatchHelper_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleBatchHelper_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7ACE1F8ABE613622B51F982840CCAE37 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B85773611D6893A5714A0542D9C890A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82F7D8CACE18D0C1DCF362D20DE8BBA1 /* GoogleBatchHelper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GoogleBatchHelper-dummy.m"; sourceTree = "<group>"; };
+		840F9C982BDF1CAAAD8962B10333DB17 /* Pods-GoogleBatchHelper_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GoogleBatchHelper_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8ABD51C360A7653C4183B0F0551A52A1 /* Pods-GoogleBatchHelper_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GoogleBatchHelper_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9187389E0CD9C021DD0C188CD18ECAF1 /* Pods-GoogleBatchHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GoogleBatchHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		991B12DB996F9B04BA1A5BF8B21B5CF9 /* BatchRequestEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BatchRequestEncoder.swift; sourceTree = "<group>"; };
+		9A3F6EE9249226C18F7D03113BAB24F4 /* Pods-GoogleBatchHelper_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleBatchHelper_Example-resources.sh"; sourceTree = "<group>"; };
+		9C4CC9D0F04709E4CA9827A6E275648F /* GoogleBatchHelper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GoogleBatchHelper-prefix.pch"; sourceTree = "<group>"; };
+		A61BAFE1C90AFD440D30A77EFF682A02 /* GoogleBatchHelper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GoogleBatchHelper.modulemap; sourceTree = "<group>"; };
+		B66C9D6DC990EBECF0A7BCC95D82D470 /* Pods-GoogleBatchHelper_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleBatchHelper_Example-dummy.m"; sourceTree = "<group>"; };
+		B8E1911310E9AB22AFE397B27E9BEEC1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC8C5681403CB6E239AFAF10A86BBF97 /* Pods-GoogleBatchHelper_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GoogleBatchHelper_Tests.modulemap"; sourceTree = "<group>"; };
+		C109066C0865CDBD3343AD62560905AD /* GoogleBatchHelper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleBatchHelper.xcconfig; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D7FC83005CF77090F105F21D11EF0416 /* Pods-GoogleBatchHelper_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GoogleBatchHelper_Tests-dummy.m"; sourceTree = "<group>"; };
+		E37C123BCB219666BF57B9DCFD45A4DE /* GoogleBatchHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GoogleBatchHelper.framework; path = GoogleBatchHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7774A5AA34F2CE57A828239516301A6 /* Pods-GoogleBatchHelper_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GoogleBatchHelper_Tests-resources.sh"; sourceTree = "<group>"; };
+		F07BA5BC19CECB3E5096A75FD69D56C0 /* Pods_GoogleBatchHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GoogleBatchHelper_Tests.framework; path = "Pods-GoogleBatchHelper_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EE2819122B1376E908FDBA253BC24FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26E7DF5118B5CACDBC2D8CEB02AD1B4E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C515030533A7D35DEADF57C3E8CCFCDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F50A10FB1CD9BABFBAD4A7EB57AE25B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D14037818C9FCF601A9BCF62A4DD2C68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEEC49D42EA37CC90C27C37B566FAABA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018EF53619DA216C1E9A28EE68BD44A8 /* GoogleBatchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				173B28F83D32312E41D2333037F3038F /* GoogleBatchHelper */,
+				2EDB681AEA2F911799FBBBB1A4903530 /* Support Files */,
+			);
+			name = GoogleBatchHelper;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		173B28F83D32312E41D2333037F3038F /* GoogleBatchHelper */ = {
+			isa = PBXGroup;
+			children = (
+				395DE3424E03DE9FB1A079538B911426 /* Classes */,
+			);
+			name = GoogleBatchHelper;
+			path = GoogleBatchHelper;
+			sourceTree = "<group>";
+		};
+		2EDB681AEA2F911799FBBBB1A4903530 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A61BAFE1C90AFD440D30A77EFF682A02 /* GoogleBatchHelper.modulemap */,
+				C109066C0865CDBD3343AD62560905AD /* GoogleBatchHelper.xcconfig */,
+				82F7D8CACE18D0C1DCF362D20DE8BBA1 /* GoogleBatchHelper-dummy.m */,
+				9C4CC9D0F04709E4CA9827A6E275648F /* GoogleBatchHelper-prefix.pch */,
+				2BE7D5F906BB5DCFC210EFDE3A0BB6F3 /* GoogleBatchHelper-umbrella.h */,
+				7ACE1F8ABE613622B51F982840CCAE37 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/GoogleBatchHelper";
+			sourceTree = "<group>";
+		};
+		31B209F73D388D5084DF5CB9EC34085E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1B768E53222178BE49641E136A70C05 /* Pods-GoogleBatchHelper_Example */,
+				EEAEAFD86FBD381CA8B7CB2196AD7C5F /* Pods-GoogleBatchHelper_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		395DE3424E03DE9FB1A079538B911426 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				991B12DB996F9B04BA1A5BF8B21B5CF9 /* BatchRequestEncoder.swift */,
+				3C06B17BFD5BA4F4938965B6B1B15B68 /* BatchResponseDecoder.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4585ED6574198A85D25F373CB88D03DB /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				018EF53619DA216C1E9A28EE68BD44A8 /* GoogleBatchHelper */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5D18F82A23B56EC87E6A1B2DC921997E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E37C123BCB219666BF57B9DCFD45A4DE /* GoogleBatchHelper.framework */,
+				00838F1A157047ADC0917AF959C400AF /* Pods_GoogleBatchHelper_Example.framework */,
+				F07BA5BC19CECB3E5096A75FD69D56C0 /* Pods_GoogleBatchHelper_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4585ED6574198A85D25F373CB88D03DB /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				5D18F82A23B56EC87E6A1B2DC921997E /* Products */,
+				31B209F73D388D5084DF5CB9EC34085E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEAEAFD86FBD381CA8B7CB2196AD7C5F /* Pods-GoogleBatchHelper_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B8E1911310E9AB22AFE397B27E9BEEC1 /* Info.plist */,
+				BC8C5681403CB6E239AFAF10A86BBF97 /* Pods-GoogleBatchHelper_Tests.modulemap */,
+				0838677928EA5D2FDCB6E164DDD536FE /* Pods-GoogleBatchHelper_Tests-acknowledgements.markdown */,
+				840F9C982BDF1CAAAD8962B10333DB17 /* Pods-GoogleBatchHelper_Tests-acknowledgements.plist */,
+				D7FC83005CF77090F105F21D11EF0416 /* Pods-GoogleBatchHelper_Tests-dummy.m */,
+				5DEC41D0C49B02E742D6E2D4B6C39EDA /* Pods-GoogleBatchHelper_Tests-frameworks.sh */,
+				E7774A5AA34F2CE57A828239516301A6 /* Pods-GoogleBatchHelper_Tests-resources.sh */,
+				8ABD51C360A7653C4183B0F0551A52A1 /* Pods-GoogleBatchHelper_Tests-umbrella.h */,
+				35ECC68D6DAB6A727B972A830762E0DB /* Pods-GoogleBatchHelper_Tests.debug.xcconfig */,
+				9187389E0CD9C021DD0C188CD18ECAF1 /* Pods-GoogleBatchHelper_Tests.release.xcconfig */,
+			);
+			name = "Pods-GoogleBatchHelper_Tests";
+			path = "Target Support Files/Pods-GoogleBatchHelper_Tests";
+			sourceTree = "<group>";
+		};
+		F1B768E53222178BE49641E136A70C05 /* Pods-GoogleBatchHelper_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B85773611D6893A5714A0542D9C890A /* Info.plist */,
+				36CF461EB8AA6B3ACDE44F9440D43C94 /* Pods-GoogleBatchHelper_Example.modulemap */,
+				5B888037D84090FE66986D06085D957E /* Pods-GoogleBatchHelper_Example-acknowledgements.markdown */,
+				469A41566C90885E67BB22D97CC2A7EA /* Pods-GoogleBatchHelper_Example-acknowledgements.plist */,
+				B66C9D6DC990EBECF0A7BCC95D82D470 /* Pods-GoogleBatchHelper_Example-dummy.m */,
+				2E15BB95F4ED6F6B91C9C53B5E3C8FBA /* Pods-GoogleBatchHelper_Example-frameworks.sh */,
+				9A3F6EE9249226C18F7D03113BAB24F4 /* Pods-GoogleBatchHelper_Example-resources.sh */,
+				5675A2ACD63C348EBF4CE37FE0A48927 /* Pods-GoogleBatchHelper_Example-umbrella.h */,
+				54FCFA162F245577D393FF8A75EB2EF5 /* Pods-GoogleBatchHelper_Example.debug.xcconfig */,
+				5B6446C664ED3BB0D277E31E9595C7E2 /* Pods-GoogleBatchHelper_Example.release.xcconfig */,
+			);
+			name = "Pods-GoogleBatchHelper_Example";
+			path = "Target Support Files/Pods-GoogleBatchHelper_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		159AEC1B16E08ACB2BE66E5F2AEDC518 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48ED336E31D089D2263F5B66F21B065E /* Pods-GoogleBatchHelper_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27C974EB15B69E679B4E2E9995C839C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DE2FA710CB4B59A4E0151D34D4B01FC /* Pods-GoogleBatchHelper_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5A4E099A7591982B08127CB6F6F4029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C7D322AC095125BD197C01F73DD25FA /* GoogleBatchHelper-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		052CE40833CBEEAAC6BE76C28672D63E /* Pods-GoogleBatchHelper_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CE28F1AB49F4BF60A60A0901F209894 /* Build configuration list for PBXNativeTarget "Pods-GoogleBatchHelper_Example" */;
+			buildPhases = (
+				D40681368CA49A927CD50C8735ABF6BF /* Sources */,
+				D14037818C9FCF601A9BCF62A4DD2C68 /* Frameworks */,
+				27C974EB15B69E679B4E2E9995C839C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F28C4BD35B7B7DD3672D0DDAE151A05E /* PBXTargetDependency */,
+			);
+			name = "Pods-GoogleBatchHelper_Example";
+			productName = "Pods-GoogleBatchHelper_Example";
+			productReference = 00838F1A157047ADC0917AF959C400AF /* Pods_GoogleBatchHelper_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2086B878022B6D915C6A182BEAACF829 /* GoogleBatchHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD068179FEB5BE6487CBB1D9C8A7763 /* Build configuration list for PBXNativeTarget "GoogleBatchHelper" */;
+			buildPhases = (
+				8ABF0CCC8BC47A7F11120E2D5B7CF89B /* Sources */,
+				C515030533A7D35DEADF57C3E8CCFCDE /* Frameworks */,
+				A5A4E099A7591982B08127CB6F6F4029 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleBatchHelper;
+			productName = GoogleBatchHelper;
+			productReference = E37C123BCB219666BF57B9DCFD45A4DE /* GoogleBatchHelper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5DE81AF7D30132E2806AA8B968ED84DA /* Pods-GoogleBatchHelper_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5836A4A706A166C88D6A9FF3013DADC6 /* Build configuration list for PBXNativeTarget "Pods-GoogleBatchHelper_Tests" */;
+			buildPhases = (
+				802C61697D4F295A2781B057E7758000 /* Sources */,
+				4EE2819122B1376E908FDBA253BC24FD /* Frameworks */,
+				159AEC1B16E08ACB2BE66E5F2AEDC518 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-GoogleBatchHelper_Tests";
+			productName = "Pods-GoogleBatchHelper_Tests";
+			productReference = F07BA5BC19CECB3E5096A75FD69D56C0 /* Pods_GoogleBatchHelper_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5D18F82A23B56EC87E6A1B2DC921997E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2086B878022B6D915C6A182BEAACF829 /* GoogleBatchHelper */,
+				052CE40833CBEEAAC6BE76C28672D63E /* Pods-GoogleBatchHelper_Example */,
+				5DE81AF7D30132E2806AA8B968ED84DA /* Pods-GoogleBatchHelper_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802C61697D4F295A2781B057E7758000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E5E8B0F26924709F966B1C00D0E7C6 /* Pods-GoogleBatchHelper_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8ABF0CCC8BC47A7F11120E2D5B7CF89B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA563DCE04AACE2CF5E7DA27B66F97D /* BatchRequestEncoder.swift in Sources */,
+				FDBFE18191E4DBD8762ABD1CA419028C /* BatchResponseDecoder.swift in Sources */,
+				08C9AC57F58FA061910385F66BB2A0BD /* GoogleBatchHelper-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40681368CA49A927CD50C8735ABF6BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BC0C8D1D2CA1F48230B751228DF97EE /* Pods-GoogleBatchHelper_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F28C4BD35B7B7DD3672D0DDAE151A05E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleBatchHelper;
+			target = 2086B878022B6D915C6A182BEAACF829 /* GoogleBatchHelper */;
+			targetProxy = E6AFAF7A10407123119D6313FE8E50C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		90E806880D2B638CEF55361A2AB45F8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35ECC68D6DAB6A727B972A830762E0DB /* Pods-GoogleBatchHelper_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleBatchHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleBatchHelper_Tests/Pods-GoogleBatchHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleBatchHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A423FBE260799400CC9D62184AB66395 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C109066C0865CDBD3343AD62560905AD /* GoogleBatchHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleBatchHelper/GoogleBatchHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleBatchHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleBatchHelper/GoogleBatchHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GoogleBatchHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CEC7E2913ED3C0CA511EF3BCF0263D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9187389E0CD9C021DD0C188CD18ECAF1 /* Pods-GoogleBatchHelper_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleBatchHelper_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleBatchHelper_Tests/Pods-GoogleBatchHelper_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleBatchHelper_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DEDE27961B321702C2D7654401484135 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B6446C664ED3BB0D277E31E9595C7E2 /* Pods-GoogleBatchHelper_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleBatchHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleBatchHelper_Example/Pods-GoogleBatchHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleBatchHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E6FAF41F3D6E7DF0DD74F37B0525B480 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C109066C0865CDBD3343AD62560905AD /* GoogleBatchHelper.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GoogleBatchHelper/GoogleBatchHelper-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GoogleBatchHelper/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GoogleBatchHelper/GoogleBatchHelper.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GoogleBatchHelper;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FBC9D71A50050647641E04AA83D64477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54FCFA162F245577D393FF8A75EB2EF5 /* Pods-GoogleBatchHelper_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GoogleBatchHelper_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GoogleBatchHelper_Example/Pods-GoogleBatchHelper_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GoogleBatchHelper_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD068179FEB5BE6487CBB1D9C8A7763 /* Build configuration list for PBXNativeTarget "GoogleBatchHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A423FBE260799400CC9D62184AB66395 /* Debug */,
+				E6FAF41F3D6E7DF0DD74F37B0525B480 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5836A4A706A166C88D6A9FF3013DADC6 /* Build configuration list for PBXNativeTarget "Pods-GoogleBatchHelper_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90E806880D2B638CEF55361A2AB45F8A /* Debug */,
+				CEC7E2913ED3C0CA511EF3BCF0263D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CE28F1AB49F4BF60A60A0901F209894 /* Build configuration list for PBXNativeTarget "Pods-GoogleBatchHelper_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBC9D71A50050647641E04AA83D64477 /* Debug */,
+				DEDE27961B321702C2D7654401484135 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

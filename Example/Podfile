@@ -1,11 +1,9 @@
-use_frameworks!
-
 target 'GoogleBatchHelper_Example' do
+  use_frameworks!
+  platform :ios, '8.0'
   pod 'GoogleBatchHelper', :path => '../'
 
   target 'GoogleBatchHelper_Tests' do
     inherit! :search_paths
-
-    
   end
 end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FC417291E4F830300E89B52 /* batch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FC417281E4F830300E89B52 /* batch.txt */; };
+		5FC4172A1E4F830D00E89B52 /* batch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FC417281E4F830300E89B52 /* batch.txt */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -28,7 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4EE85D08D07206F6F3C693A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4EE85D08D07206F6F3C693A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5FC417281E4F830300E89B52 /* batch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = batch.txt; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GoogleBatchHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBatchHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +44,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		62DBBA08F14CE02F6759147F /* Pods-GoogleBatchHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBatchHelper_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBatchHelper_Example/Pods-GoogleBatchHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 		690B803CA5389D97FD067165 /* Pods_GoogleBatchHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBatchHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		87EA7C4D7295D32FD9D3AB18 /* GoogleBatchHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleBatchHelper.podspec; path = ../GoogleBatchHelper.podspec; sourceTree = "<group>"; };
-		8B7D11A629486D8914F16B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		87EA7C4D7295D32FD9D3AB18 /* GoogleBatchHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GoogleBatchHelper.podspec; path = ../GoogleBatchHelper.podspec; sourceTree = "<group>"; };
+		8B7D11A629486D8914F16B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB489A4C683743EAD9C61C00 /* Pods_GoogleBatchHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleBatchHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBC21734AEBF5F35036598C /* Pods-GoogleBatchHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBatchHelper_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBatchHelper_Example/Pods-GoogleBatchHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E7A1182661D6E56D61CCE72A /* Pods-GoogleBatchHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleBatchHelper_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleBatchHelper_Tests/Pods-GoogleBatchHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +90,14 @@
 				E7A1182661D6E56D61CCE72A /* Pods-GoogleBatchHelper_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		5FC417271E4F82EC00E89B52 /* testdata */ = {
+			isa = PBXGroup;
+			children = (
+				5FC417281E4F830300E89B52 /* batch.txt */,
+			);
+			name = testdata;
 			sourceTree = "<group>";
 		};
 		607FACC71AFB9204008FA782 = {
@@ -135,6 +146,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				5FC417271E4F82EC00E89B52 /* testdata */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -215,9 +227,11 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -247,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				5FC417291E4F830300E89B52 /* batch.txt in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -256,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FC4172A1E4F830D00E89B52 /* batch.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +510,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -507,6 +524,7 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -526,6 +544,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -541,6 +560,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
