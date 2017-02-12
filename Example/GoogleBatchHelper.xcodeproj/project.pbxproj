@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FC417291E4F830300E89B52 /* batch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FC417281E4F830300E89B52 /* batch.txt */; };
-		5FC4172A1E4F830D00E89B52 /* batch.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5FC417281E4F830300E89B52 /* batch.txt */; };
+		5FC417371E4F975F00E89B52 /* batch.test in Resources */ = {isa = PBXBuildFile; fileRef = 5FC417351E4F974F00E89B52 /* batch.test */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -31,7 +30,7 @@
 
 /* Begin PBXFileReference section */
 		4EE85D08D07206F6F3C693A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5FC417281E4F830300E89B52 /* batch.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = batch.txt; sourceTree = "<group>"; };
+		5FC417351E4F974F00E89B52 /* batch.test */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = batch.test; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GoogleBatchHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleBatchHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,10 +91,10 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		5FC417271E4F82EC00E89B52 /* testdata */ = {
+		5FC417341E4F972400E89B52 /* testdata */ = {
 			isa = PBXGroup;
 			children = (
-				5FC417281E4F830300E89B52 /* batch.txt */,
+				5FC417351E4F974F00E89B52 /* batch.test */,
 			);
 			name = testdata;
 			sourceTree = "<group>";
@@ -146,7 +145,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				5FC417271E4F82EC00E89B52 /* testdata */,
+				5FC417341E4F972400E89B52 /* testdata */,
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
@@ -261,7 +260,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				5FC417291E4F830300E89B52 /* batch.txt in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -271,7 +269,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FC4172A1E4F830D00E89B52 /* batch.txt in Resources */,
+				5FC417371E4F975F00E89B52 /* batch.test in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +323,7 @@
 		};
 		493DD7BCF1A7A80ED411BF76 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -333,7 +331,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleBatchHelper_Tests/Pods-GoogleBatchHelper_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
@@ -545,6 +543,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBatchHelper_Example.app/GoogleBatchHelper_Example";
 			};
 			name = Debug;
 		};
@@ -561,6 +560,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleBatchHelper_Example.app/GoogleBatchHelper_Example";
 			};
 			name = Release;
 		};

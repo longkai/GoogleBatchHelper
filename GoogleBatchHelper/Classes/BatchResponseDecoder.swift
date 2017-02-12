@@ -126,7 +126,7 @@ fileprivate func indexOf(_ pattern: [UInt8], kmpTable: [Int], data: Data, offset
     return (key, val, i)
 }
 
-/* fileprivate */ public func statusLine(_ data: Data, start: Int, end: Int) -> (String, Int)? {
+/* fileprivate */ public func startLine(_ data: Data, start: Int, end: Int) -> (String, Int)? {
     guard start < end else {
         return nil
     }
@@ -189,8 +189,8 @@ public struct BatchResponseDecoder {
             while lineDelimiterCount < maxLineDelimiterCount && offset < len {
                 let (key, val, newOffset) = readHeader(data, offset: offset)
                 if key.isEmpty {
-                    // if no header found, it must be merely a newline or HTTP status line
-                    if let status = statusLine(data, start: offset, end: newOffset) {
+                    // if no header found, it must be merely a newline or HTTP start line
+                    if let status = startLine(data, start: offset, end: newOffset) {
                         httpVersion = status.0
                         statusCode = status.1
                     } else {
