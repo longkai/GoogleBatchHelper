@@ -15,7 +15,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 /// - ids: support your requested entity id array
 func encodeBatchRequest(_ ids: [String]) {
     let boundary = "\(Date().timeIntervalSince1970)"
-    var req = URLRequest(url: URL(string: "")!)
+    var req = URLRequest(url: URL(string: "https://www.googleapis.com/batch")!)
     req.addValue("multipart/mixed; boundary=\(boundary)", forHTTPHeaderField: "Content-Type")
     req.httpMethod = "POST"
 
@@ -51,6 +51,7 @@ func decodeBatchResponse(_ respBoundary: String, _ data: Data) {
 ```
 
 ## Requirements
+
 - iOS 8.0+
 - macOS 10.9+
 
